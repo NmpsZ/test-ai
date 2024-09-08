@@ -29,7 +29,7 @@ def analyze_sentiment():
             messages=[
                 {
                     "role": "system",
-                    "content": "Analyze the sentiment of the following text:",
+                    "content": "แต่งเนื้อเพลงให้หน่อย ขอแบบเพลงแนว rock และขอให้อ่านออกแบบไม่มั่ว พร้อมคอร์ดกีต้าร์ด้วย",
                 },
                 {"role": "user", "content": text},
             ],
